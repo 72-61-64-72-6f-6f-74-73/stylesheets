@@ -45,6 +45,18 @@
 		animation: spinner-fade-base 1s infinite linear;
 	}
 
+	.spinner6-white .spinner6-blade-white {
+		position: absolute;
+		left: 0.4629em;
+		bottom: 0;
+		width: 0.074em;
+		height: 0.2777em;
+		border-radius: 0.0555em;
+		background-color: transparent;
+		transform-origin: center -0.2222em;
+		animation: spinner-fade-white 1s infinite linear;
+	}
+
 	.spinner6 .spinner6-blade:nth-child(1) {
 		animation-delay: 0s;
 		transform: rotate(0deg);
@@ -101,6 +113,18 @@
 		background-color: transparent;
 		transform-origin: center -0.2222em;
 		animation: spinner-fade-base 1s infinite linear;
+	}
+
+	.spinner12-white .spinner12-blade-white {
+		position: absolute;
+		left: 0.4629em;
+		bottom: 0;
+		width: 0.074em;
+		height: 0.2777em;
+		border-radius: 0.0555em;
+		background-color: transparent;
+		transform-origin: center -0.2222em;
+		animation: spinner-fade-white 1s infinite linear;
 	}
 	
 	.spinner12 .spinner12-blade:nth-child(1) {
