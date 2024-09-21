@@ -26,4 +26,10 @@
     .pre-wrap-text {
         white-space: pre-wrap;
     }
+
+    .flex-fill {
+        width: 100%;
+        height: 100%;
+        flex: 1 0 100%;
+    }
 }
