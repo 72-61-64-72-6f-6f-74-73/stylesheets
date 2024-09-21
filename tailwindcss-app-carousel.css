@@ -1,0 +1,14 @@
+@layer components {
+    .carousel-container {
+        display: flex;
+        overflow-x: hidden;
+        scroll-snap-type: x mandatory;
+        list-style: none;
+        scroll-behavior: smooth;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .carousel-li {
+        scroll-snap-align: start;
+    }
+}
