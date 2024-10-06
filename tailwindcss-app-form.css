@@ -1,8 +1,22 @@
 @layer components {
-    .form-textarea-input {
-        @apply textarea flex flex-row w-full p-0 border-0 focus:border-0 outline-0 focus:outline-0 placeholder:font-[300] font-[400] placeholder:text-layer-1-glyph-shade bg-transparent;
+    .form-textarea {
+        width: 100%;
+        height: max-content;
+        padding: 0.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        outline: none;
+        border-radius: 1rem;
+        text-wrap: wrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
     }
 
+    .form-textarea-layer-1:focus {
+        border-color: hsl(var(--layer-1-surface-focus));
+    }
+    
     .form-invalid-layer-1 {
         @apply bg-red-300;
     }
@@ -23,6 +37,7 @@
         @apply input w-full p-0 pl-2 placeholder:font-[400];
     }
 
+    .form-textarea,
     .form-select,
     .form-input {
         @apply flex flex-row justify-center items-center border-0 focus:border-0 outline-0 focus:outline-0 bg-transparent;

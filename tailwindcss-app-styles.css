@@ -27,7 +27,7 @@
         white-space: pre-wrap;
     }
 
-    .flex-fill {
+    .flex-fluid {
         width: 100%;
         height: 100%;
         flex: 1 0 100%;

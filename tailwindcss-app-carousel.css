@@ -1,6 +1,7 @@
-@layer components {
+@layer base {
     .carousel-container {
         display: flex;
+        flex-grow: 1;
         overflow-x: hidden;
         scroll-snap-type: x mandatory;
         list-style: none;
@@ -8,7 +9,15 @@
         -webkit-overflow-scrolling: touch;
     }
 
-    .carousel-li {
+    .carousel-container-trellis {
+        @apply flex flex-grow h-full w-full;
+    }
+
+    .carousel-item {
         scroll-snap-align: start;
+    }
+
+    .carousel-item-trellis {
+        @apply flex flex-col w-fit gap-4 px-2 justify-start items-center;
     }
 }
