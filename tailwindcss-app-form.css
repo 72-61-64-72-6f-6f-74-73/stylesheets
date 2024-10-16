@@ -1,10 +1,35 @@
 @layer components {
-    .form-textarea {
+    .entry-layer-1-highlight-invalid {
+        @apply bg-red-400/80;
+    }
+
+    .entry-layer-1-highlight {
+        @apply ring-4 ring-layer-1-surface-edge;
+    }
+
+    .entry-line-fluid {
+        @apply h-full w-full rounded-2xl;
+    }
+
+    .entry-textarea-wrap {
+        @apply flex flex-row w-full px-2 items-center rounded-touch;
+    }
+
+    .entry-line-wrap {
+        @apply flex flex-row h-form_line w-full px-2 items-center rounded-2xl;
+    }
+
+    .el-textarea {
+        @apply w-full p-0 pl-2 py-3 placeholder:font-[400] rounded-touch font-[400] text-[1rem];
+    }
+
+    .el-textarea-layer-1:focus {
+        border-color: hsl(var(--layer-1-surface-focus));
+    }
+    
+    .el-textarea {
         width: 100%;
         height: max-content;
-        padding: 0.5rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
         outline: none;
         border-radius: 1rem;
         text-wrap: wrap;
@@ -13,33 +38,17 @@
         white-space: nowrap;
     }
 
-    .form-textarea-layer-1:focus {
-        border-color: hsl(var(--layer-1-surface-focus));
-    }
-    
-    .form-invalid-layer-1 {
-        @apply bg-red-300;
-    }
-
-    .form-line-select {
-        @apply h-full w-full rounded-2xl;
-    }
-
-    .form-line-active {
-        @apply focus:outline-[4px] focus:outline-gray-400/30;
-    }
-
-    .form-line-wrap {
-        @apply flex flex-row h-form_line w-full rounded-2xl;
-    }
-
-    .form-input {
+    .el-input {
         @apply input w-full p-0 pl-2 placeholder:font-[400];
     }
 
-    .form-textarea,
-    .form-select,
-    .form-input {
+    .el-textarea,
+    .el-select,
+    .el-input {
         @apply flex flex-row justify-center items-center border-0 focus:border-0 outline-0 focus:outline-0 bg-transparent;
+    }
+
+    .el-responsive {
+        @apply ease-in-out transition-all;
     }
 }

@@ -18,6 +18,6 @@
     }
 
     .carousel-item-trellis {
-        @apply flex flex-col w-fit gap-4 px-2 justify-start items-center;
+        @apply flex flex-col w-fit px-4 gap-4 justify-start items-center
     }
 }
