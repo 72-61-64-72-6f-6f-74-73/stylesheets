@@ -16,7 +16,7 @@
     }
 
     .entry-line-wrap {
-        @apply flex flex-row h-form_line w-full px-2 items-center rounded-2xl;
+        @apply flex flex-row w-full px-2 items-center;
     }
 
     .el-textarea {
@@ -39,16 +39,16 @@
     }
 
     .el-input {
-        @apply input w-full p-0 pl-2 placeholder:font-[400];
+        @apply input w-full p-0 placeholder:font-[400];
     }
 
     .el-textarea,
     .el-select,
     .el-input {
-        @apply flex flex-row justify-center items-center border-0 focus:border-0 outline-0 focus:outline-0 bg-transparent;
+        @apply flex flex-row w-full justify-center items-center border-0 focus:border-0 outline-0 focus:outline-0 bg-transparent font-[500] text-[1.05rem];
     }
 
-    .el-responsive {
+    .el-re {
         @apply ease-in-out transition-all;
     }
 }
