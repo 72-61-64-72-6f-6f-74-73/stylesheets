@@ -45,7 +45,7 @@
     .el-textarea,
     .el-select,
     .el-input {
-        @apply flex flex-row w-full justify-center items-center border-0 focus:border-0 outline-0 focus:outline-0 bg-transparent font-[500] text-[1.05rem];
+        @apply flex flex-row w-full justify-center items-center border-0 focus:border-0 outline-0 focus:outline-0 bg-transparent font-sans font-[400] text-[1.08rem];
     }
 
     .el-re {
