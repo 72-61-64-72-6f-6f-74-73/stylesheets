@@ -20,7 +20,7 @@
     }
 
     .el-textarea {
-        @apply w-full p-0 pl-2 py-3 placeholder:font-[400] rounded-touch font-[400] text-[1rem];
+        @apply w-full p-0 pl-2 py-3 rounded-touch text-[1rem];
     }
 
     .el-textarea-layer-1:focus {
@@ -39,13 +39,13 @@
     }
 
     .el-input {
-        @apply input w-full p-0 placeholder:font-[400];
+        @apply input w-full p-0;
     }
 
     .el-textarea,
     .el-select,
     .el-input {
-        @apply flex flex-row w-full justify-center items-center border-0 focus:border-0 outline-0 focus:outline-0 bg-transparent font-sans font-[400] text-[1.08rem];
+        @apply flex flex-row w-full justify-center items-center border-0 focus:border-0 outline-0 focus:outline-0 bg-transparent font-sans font-[400] placeholder:font-[400] text-[1.08rem];
     }
 
     .el-re {
