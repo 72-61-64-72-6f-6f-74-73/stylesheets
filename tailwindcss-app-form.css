@@ -1,12 +1,4 @@
 @layer components {
-    .entry-layer-1-highlight-invalid {
-        @apply bg-red-400/80;
-    }
-
-    .entry-layer-1-highlight {
-        @apply ring-4 ring-layer-1-surface-edge;
-    }
-
     .entry-line-fluid {
         @apply h-full w-full rounded-2xl;
     }
