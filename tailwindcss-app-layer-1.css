@@ -15,6 +15,10 @@
         @apply scale-[101%];
     }
 
+    .layer-1-active-glyph {
+        @apply active:text-layer-1-glyph_a group-active:text-layer-1-glyph_a;
+    }
+
     .layer-1-active-surface {
         @apply active:bg-layer-1-surface-focus group-active:bg-layer-1-surface-focus;
     }

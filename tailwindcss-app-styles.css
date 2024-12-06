@@ -37,4 +37,8 @@
         height: 100%;
         flex: 1 0 100%;
     }
+
+    .opacity-active {
+        @apply active:opacity-80 group-active:opacity-80;
+    }
 }
